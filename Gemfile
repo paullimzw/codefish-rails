@@ -31,13 +31,13 @@ end
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  gem 'pg'
   gem 'rspec-rails'
   gem 'capybara'
 end
 
 group :production do
-  gem 'mysql2'
+  gem 'pg'
 end
 
 # Use ActiveModel has_secure_password
